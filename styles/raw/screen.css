@@ -1,0 +1,78 @@
+/* +------------+
+   | SeePHI CSS |
+---+------------+-------------------------------------------------------------- */
+/* | Filename: screen.css
+/* | Autor: Thomas Schmidt
+/* | Project: BibLib (mybiblib.net)
+/* | Style-Type: default
+/* | Font-Colours: #000000 (black)
+/* | Site-Colours: #FFFFFF (white)
+/* +--------------------------------------------------------------------------- */
+
+/* +-----------------+
+   | General-Styling |                                              
+---+-----------------+--------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, p, div,
+td, li, .comment, td.footline
+a, a.menu							{ font-family:Verdana,Arial,Sans-Serif; color:#000000; font-size:12px; }
+
+td.centerframe						{ width:800px; }
+/* ---------------------------------------------------------------------------- */
+
+/* +-------------+
+   | Tag-Styling |                                              
+---+-------------+------------------------------------------------------------- */
+h1									{ color:#95C585; font-size:24px; font-weight:bold; }
+h2									{ font-size:16px; font-weight:bold; }
+h3									{ font-size:14px; font-weight:bold; }
+/* ---------------------------------------------------------------------------- */
+
+/* +-------------------+
+   | Categorie-Styling |                                              
+---+-------------------+------------------------------------------------------- */
+div.error							{ color:#FF0000; font-size:11px; }
+td.banner							{ background-color:#B9E1A3; border:none; height:120px; width:800px; }
+td.menuline							{ background-color:#88A5CE; border-bottom:2px solid #000000; border-right:2px solid #000000; border-top:2px solid #000000; width:638px; }
+td.sidebarbgd						{ background-color:#C198BD; border-left:2px solid #000000; border-right:2px solid #000000; vertical-align:top; width:160px; }
+td.sidebarheader					{ border-top:2px solid #000000; border-bottom:2px solid #000000; font-weight:bold; padding:5px; text-align:center; }
+td.sidebarcontent					{ border-bottom:2px solid #000000; color:#333333; font-size:11px; padding:5px; text-align:center; }
+td.maincontent						{ background-color:#FFFFFF; border-right:2px solid #000000; padding:5px; vertical-align:top; width:638px; }
+td.version	 	                    { background-color:#B1E1E1; border:2px solid #000000; padding:5px; width:150px; }
+td.footline							{ background-color:#DDDDDD; border-bottom:2px solid #000000; border-right:2px solid #000000; border-top:2px solid #000000; padding:3px; width:638px; }
+
+td.winhead                       	{ background-color:#486190; border-bottom:2px solid #000000; color:#FFFFFF; font-weight:bold; padding:5px; text-align:left; }
+td.source       	                { background-color:#DDDDDD; border:1px solid #000000; }
+.comment            	            { font-size:10px; }
+hr                      	        { border:none; border-top:1px solid #000000; width:80%; }
+/* ---------------------------------------------------------------------------- */
+
+/* +----------------------+
+   | General Link-Styling |                                              
+---+----------------------+---------------------------------------------------- */
+a:link, a:visited, a:active        { color:#000000; text-decoration:underline; }
+a:hover                            { color:#334E81; text-decoration:none; }
+/* ---------------------------------------------------------------------------- */
+
+/* +--------------------+
+   | Link-Styling: menu |                                              
+---+--------------------+------------------------------------------------------ */
+a.menu:link, a.menu:visited,
+a.menu:active                      { background-color:#D4FBC8; border-left:1px solid #333333; border-right:1px solid #333333; color:#000000; display:table-cell; font-size:12px; font-weight:bold; height:26px; padding-left:8px; padding-right:8px; text-decoration:none; vertical-align:middle; }
+a.menu:hover                       { background-color:#B9E7AA; border-left:1px solid #000000; border-right:1px solid #000000; color:#000000; display:table-cell; font-size:12px; font-weight:bold; height:26px; padding-left:8px; padding-right:8px; text-decoration:none; vertical-align:middle; }
+/* ---------------------------------------------------------------------------- */
+
+/* +---------------------------+
+   | Link-Styling: small_links |
+---+---------------------------+----------------------------------------------- */
+a.lightup:link, a.lightup:visited,
+a.lightup:active                   { font-size:11px; color:#000000; text-decoration:underline; }
+a.lightup:hover                    { font-size:11px; color:#FFFFFF; text-decoration:none; }
+/* ---------------------------------------------------------------------------- */
+
+/* +------------------------+
+   | Link-Styling: il_links |
+---+------------------------+-------------------------------------------------- */
+a.footline:link, a.footline:visited,
+a.footline:active                   { color:#FFFFFF; font-size:11px; text-decoration:underline; }
+a.footline:hover                    { color:#FFFFFF; font-size:11px; text-decoration:none; }
+/* ---------------------------------------------------------------------------- */
