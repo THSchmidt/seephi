@@ -3,11 +3,11 @@ class main {
 	var $parseStart;
 	var $now;
 
-	var $url = "http://192.168.0.50/seephi7/";
+	var $url = "http://seephi.zzl.org/";
 	var $homepage;
 	var $toWebRoot;
 
-	var $pageTitle = "SeePHI 0.7b";
+	var $pageTitle = "SeePHI";
 	var $clsPath = "classes/";
 	var $incPath = "include/";
 	var $styPath = "styles/";
@@ -37,11 +37,12 @@ class main {
 		$this->styPath = $toWebRoot.$this->styPath;
 		$this->imgPath = $toWebRoot.$this->imgPath;
 
+		include $toWebRoot."config.inc.php";
 		include $this->clsPath."db.class.php";
 
 		### Database Connect ############################
-		$this->dbObj = new db("localhost", "seephiadmin", "KRz&b1#", $this->dbTables);
-		$this->dbObj->select_db("seephi");
+		$this->dbObj = new db("localhost", "779394_admin", "hP7#s&3U", $this->dbTables);
+		$this->dbObj->select_db("seephi_zzl_basic");
 		#################################################
 
 
